@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen1 JackGB</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body background="https://drive.google.com/uc?export=view&id=1xEbqbp-IdDriI0LrGq6udRVE5vrKU8JR">
+        <font color="white"><h1 align=center><p>Tarjetas de Video</p></h1></font>
+        <br>
+    
+        <p><div class="intromargin">
+            Componente dedicado a procesar los datos relacionados al video y las imágenes que se generan en la computadora. Puede venir integrado en la placa base del PC, en el procesador o instalado por aparte.
+
+            Todas las imágenes en el monitor, desde los gráficos de un videojuego hasta un documento de Word o Powerpoint, deben ser procesados por el CPU.
+            Las GPU (tarjetas gráficas/de video) obtienen esos datos (información binaria) que le envía el procesador y los transforma en
+            información visual, imágenes.
+        </div></p>
+    <br>
+
+    <table align="center" border="4" width=35% class="textborde">
+        <tr align=center bgcolor="yellow">
+            <td colspan=3><font color="black">Tarjetas de Nvidia</font></td>
+        </tr>
+        <tr align=center bgcolor="green">
+            <td>GTX</td>
+            <td>RTX 2000</td>
+            <td>RTX 3000</td>
+        </tr>
+        <tr>
+            <td>1060</td>
+            <td>2060 / S</td>
+            <td>3060 / ti</td>
+        </tr>
+        <tr>
+            <td>1650 / S</td>
+            <td>2070 / S</td>
+            <td>3070 / ti</td>
+        </tr>
+        <tr>
+            <td>1660 / S / ti</td>
+            <td>2080 / S / ti</td>
+            <td>3080 / ti</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>3090</td>
+        </tr>
+    </table>
+    <br><br>
+    <table align="center" border="4" width=35% class="textborde">
+        <tr align=center bgcolor="yellow">
+            <td colspan=3><font color="black">Tarjetas de AMD</font></td>
+        </tr>
+        <tr align=center bgcolor="red">
+            <td>RX</td>
+            <td>RX 5000 XT</td>
+            <td>RX 6000 XT</td>
+        </tr>
+        <tr>
+            <td>560</td>
+            <td>5500</td>
+            <td>6600</td>
+        </tr>
+        <tr>
+            <td>570</td>
+            <td>5600</td>
+            <td>6700</td>
+        </tr>
+        <tr>
+            <td>580</td>
+            <td>5700</td>
+            <td>6800</td>
+        </tr>
+        <tr>
+            <td>590</td>
+            <td></td>
+            <td>6900</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <font color="white">
+    <form>
+        <label for="NombreGPU"><b>Modelo:</b></label>
+        <input id="NombreGPU" type="Text" placeholder="3060, 6600..."> <br><br>
+        
+        <label for="Memoria"><b>Memoria:</b></label>
+        <select id="Memoria" name="VRAM">
+            <option>- Seleccione un rango de VRAM -</option>
+            <option value="4">4 GB</option>
+            <option value="6">6 GB</option>
+            <option value="6">8 GB</option>
+            <option value="12">12 GB</option>
+            <option value="16">16 GB</option>
+        </select> <br><br>
+        
+        <label for="Frecuencia"><b>Frecuencia Nucleo (MHz):</b></label>
+        <input id="Frecuencia" type="Text"> <br><br>
+        
+        <input type="checkbox" name="" id="Buscar"> AMD
+        <input type="checkbox" name="" id="Buscar"> Nvidia <br><br>
+        <input type="button" value="Buscar">
+    </form>
+    </font>
+
+    <table align="center" border="4" width=60% class="tablaborde">
+        <tr align=center bgcolor="yellow">
+            <td colspan=4><font color="black">Especificaciones</font></td>
+        </tr>
+        <tr align=center bgcolor="red">
+            <th>Marca</td>
+            <th>GPU</td>
+            <th>Memoria</td>
+            <th>Frecuencia de Núcleos</td>
+        </tr>
+        <tr>
+            <td>AMD</td>
+            <td>560</td>
+            <td>4 GB</td>
+            <td>1176</td>
+        </tr>
+        <tr>
+            <td>AMD</td>
+            <td>570</td>
+            <td>4 GB</td>
+            <td>1618</td>
+        </tr>
+        <tr>
+            <td>AMD</td>
+            <td>580</td>
+            <td>8 GB</td>
+            <td>1257</td>
+        </tr>
+        <tr>
+            <td>AMD</td>
+            <td>590</td>
+            <td>8 GB</td>
+            <td>1469</td>
+        </tr>
+        <tr>
+            <td>AMD</td>
+            <td>5500</td>
+            <td>4 GB</td>
+            <td>1607</td>
+        </tr>
+        <tr>
+            <td>AMD</td>
+            <td>5600</td>
+            <td>6 GB</td>
+            <td>1130</td>
+        </tr>
+        <tr>
+            <td>AMD</td>
+            <td>5700</td>
+            <td>8 GB</td>
+            <td>1605</td>
+        </tr>
+        <tr>
+            <td>AMD</td>
+            <td>6600</td>
+            <td>8 GB</td>
+            <td>1968</td>
+        </tr>
+        <tr>
+            <td>AMD</td>
+            <td>6700</td>
+            <td>12 GB</td>
+            <td>2400</td>
+        </tr>
+        <tr>
+            <td>AMD</td>
+            <td>6800</td>
+            <td>16 GB</td>
+            <td>2310</td>
+        </tr>
+        <tr>
+            <td>AMD</td>
+            <td>6900</td>
+            <td>16 GB</td>
+            <td>2425</td>
+        </tr>
+        <tr>
+            <td>Nvidia</td>
+            <td>GTX 1060</td>
+            <td>12GB</td>
+            <td>1777</td>
+        </tr>
+        <tr>
+            <td>Nvidia</td>
+            <td>GTX 1650 / S</td>
+            <td>12GB</td>
+            <td>1777</td>
+        </tr>
+        <tr>
+            <td>Nvidia</td>
+            <td>GTX 1660</td>
+            <td>6 GB</td>
+            <td>1830</td>
+        </tr>
+        <tr>
+            <td>Nvidia</td>
+            <td>RTX 2060 / S</td>
+            <td>12GB</td>
+            <td>1777</td>
+        </tr>
+        <tr>
+            <td>Nvidia</td>
+            <td>RTX 2070 / S</td>
+            <td>12GB</td>
+            <td>1777</td>
+        </tr>
+        <tr>
+            <td>Nvidia</td>
+            <td>RTX 2080 / S / ti</td>
+            <td>12GB</td>
+            <td>1777</td>
+        </tr>
+        <tr>
+            <td>Nvidia</td>
+            <td>RTX 3060 / ti</td>
+            <td>12 GB</td>
+            <td>1777</td>
+        </tr>
+        <tr>
+            <td>Nvidia</td>
+            <td>RTX 3070 / ti</td>
+            <td>8 GB</td>
+            <td>1725</td>
+        </tr>
+        <tr>
+            <td>Nvidia</td>
+            <td>RTX 3080 / ti</td>
+            <td>10 GB</td>
+            <td>1710</td>
+        </tr>
+        <tr>
+            <td>Nvidia</td>
+            <td>RTX 3090</td>
+            <td>12GB</td>
+            <td>1777</td>
+        </tr>
+    </table>
+
+    <font color="white">
+    <br>
+    <h2>Lista de Contacto</h2>
+        <ul>
+            <li>Trabajo por Jackson Guzmán Bejarano</li>
+            <li><strong>Youtube</strong></li>
+            <li><u>LinkedIn</u></li>
+            <li><i>Facebook</i></li>
+            <li><a href="https://github.com/05JackGB"><p>GitHub</p></a></li>
+        </ul>
+    
+    <a href="https://github.com/">
+        <img src="https://drive.google.com/uc?export=view&id=1_LtitdrX3_EggzUpk-cOeuw2tSEatPD4"
+        style="width: 552px; height: 208px;" ALIGN= LEFT>
+    </a>
+        
+    <br><br>
+    </font>
+    
+</body>
