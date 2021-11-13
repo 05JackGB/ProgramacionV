@@ -1,0 +1,41 @@
+#titulo{
+    text-align: center;
+    color: blue;
+    font-size: 31px;
+}
+
+.fixed-imagen{
+    position: fixed;
+    left: 62%;
+}
+
+.static{
+    position: static;
+}
+
+.cuadradorelative{
+    width: 200px;
+    height: 200px;
+    background: cyan;
+    position: relative;
+    left: 200px;
+}
+
+.circuloabsolute{
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    top: 0px;
+}
+
+.textoexplicativo{
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 30%;
+    justify-content: center;
+}
+
+
