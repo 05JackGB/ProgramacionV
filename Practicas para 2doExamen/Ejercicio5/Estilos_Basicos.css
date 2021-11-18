@@ -1,0 +1,39 @@
+.tituloazul {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafoverde {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+div#first {
+    margin-left: 143px;
+    background-color: yellow;
+    margin-right: 50px;
+}
+
+div#second {
+    margin-left: 95px;
+    border: blue 3px solid;
+    background-color: lightgray;
+    color: black;
+    font-family: 'Comic Sans MS';
+}
+
+div#third {
+    margin-left: 95px;
+    background-color: lightgray;
+    color: black;
+    font-family: 'Archivo Black';
+}
+
+div#cursiva {
+    font-style: italic;
+}
+
+div#alinderecha {
+    margin-left: 320px;
+}

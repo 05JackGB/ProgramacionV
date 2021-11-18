@@ -1,0 +1,41 @@
+h1 {
+    color: blue;
+    font-family: 'Archivo Black';
+}
+
+.parrafo1 {
+    text-align: left;
+    margin-top: 5px;
+    margin-right: 60%;
+    margin-bottom: 13px;
+    color: blueviolet;
+}
+
+.parrafo2 {
+    text-align: left;
+    margin-right: 60%;
+    margin-bottom: 13px;
+    color: red;
+}
+
+.parrafo3 {
+    text-align: right;
+    margin-top: 10px;
+    margin-left: 70%;
+    margin-bottom: 23px;
+    color: blueviolet;
+}
+
+.parrafo4 {
+    text-align: right;
+    margin-top: 7px;
+    margin-left: 50%;
+    margin-bottom: 8px;
+    color: green;
+}
+
+.parrafocentro {
+    text-align: center;
+    margin: 40px;
+    color: red;
+}

@@ -1,0 +1,21 @@
+body {
+    background: #ffffff;
+}
+
+.title1 {
+    background-color: #c0c0c0;
+    font-size: 18pt;
+    margin-left: 1in;
+    margin-right: 1in;
+    text-align: center;
+    font-family: 'Archivo Black';
+}
+
+.parrafo1 {
+    background-color: #c0c0c0;
+    font-size: 14pt;
+    margin-left: 1in;
+    margin-right: 1in;
+    margin-top: -20px;
+    font-family: 'Comic Sans MS';
+}
