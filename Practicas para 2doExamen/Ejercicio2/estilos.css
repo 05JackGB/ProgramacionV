@@ -1,0 +1,33 @@
+body {
+    BORDER-RIGHT: thin;
+    BORDER-TOP: thin;
+    BORDER-LEFT: thin;
+    BORDER-BOTTOM: thin
+}
+
+h2 {
+    color: blue;
+    font-family: 'Archivo Black';
+    font-size: 24pt;
+}
+
+.miClase {
+   color: blue;
+}
+
+p{
+    font-size:12pt;
+    color: green;
+    font-family:verdana
+ }
+
+.otraClase 
+{
+   text-align: right;
+   padding-bottom: 20px;
+}
+
+#rebelde {
+    text-align: center;
+    color: red;
+ }
